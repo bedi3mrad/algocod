@@ -1,0 +1,25 @@
+#!/usr/bin/env python
+import rospy
+from geometry_msgs.msg import Twist
+class Control()
+ 
+ float vitesse_max =2.0
+ def move(self):
+    rospy.init_node('keyboard', anonymous=True)
+    rospy.on_shutdown(self.shutdown)
+    self.velocity_publisher = rospy.Publisher('/turtle/cmd_vel', Twist,    queue_size=10)
+    vel_msg = Twist()
+    vel_msg.linear.x=vitesse_max 
+    while not rospy.is_shutdown():      
+       self.velocity_publisher.publish(vel_msg)
+       rate.sleep()
+ def shutdown(self)
+    rospy.loginfo("Stop")
+    self.cmd_vel.publish(Twis())
+    rospy.sleep(1)
+ if __name__ == '__main__':
+  try:
+   Control()
+  except:
+   rospy.loginfo("Stop Turtle")       
+        

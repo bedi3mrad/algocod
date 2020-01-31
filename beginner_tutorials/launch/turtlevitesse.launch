@@ -1,0 +1,5 @@
+<launch>
+    <rosparam file="$(find beginner_tutorials)/config/configuration.yaml" command="load"/> 
+    <node pkg="beginner_tutorials" name="Vitesse_adjust" type="script.py" output="screen"/> 
+    <node pkg="turtlesim" name="sim" type="turtlesim_node"/>        
+</launch>
