@@ -12,6 +12,12 @@ L'utilisateur est demandé de saisir une valeur de vitesse ,à souhait , en resp
 
 Le code source :/scripts/script.py 
 
+
+Environnements de travail
+=========================
+OS : Ubuntu 14.04 Trusty
+ROS: Indigo
+
 Démarrage
 ============
 *configuration de l'environnement :
