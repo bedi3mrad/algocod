@@ -1,0 +1,50 @@
+#!/usr/bin/env python
+#import rospy
+#from geometry_msgs.msg import Twist
+#from turtlesim.msg import Pos
+import re
+def split_list(a_list):
+    half = len(a_list)//2
+    return a_list[:half], a_list[half:]
+#def move():
+data="  " 
+with open("config3.yaml") as openfile:              
+    for line in openfile:
+      for part in line:
+        if "x" in part:
+          data=data+line
+          #data=data[:data.index(',')] + data[data.index(',')+1:]
+        elif "y" in part:
+          data=data+line
+ 
+temp = re.findall(r'\d+',data) 
+res = list(map(int, temp))
+X,Y=split_list(res)
+for i in range(0,3):
+   
+  
+  #return print(Y,X)
+
+
+
+    #pub = rospy.Publisher('pose', Pose, queue_size=1)
+    #rospy.init_node('pose_publisher', anonymous=True)
+    #rate = rospy.Rate(2) # Hz
+    #while not rospy.is_shutdown():
+       # p = Pose()
+       # p.position.x = 0.5
+       # p.position.y = -0.1
+       # p.position.z = 1.0
+        # Make sure the quaternion is valid and normalized
+       # p.orientation.x = 0.0
+       # p.orientation.x = 0.0
+       # p.orientation.x = 0.0
+       # p.orientation.w = 1.0
+       # pub.publish(p)
+       # rate.sleep()
+
+#if __name__ == '__main__':
+  #  try:
+   #     move2()
+    #except rospy:
+        #pass

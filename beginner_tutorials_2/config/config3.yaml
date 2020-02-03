@@ -1,0 +1,29 @@
+"name": "data center patrolling"
+"duration_minutes": 66,
+"goals":[
+{
+  "id": "0",
+  "action": "SNAP",
+  "position": {
+     "x":6,
+     "y":5
+      }
+    },
+   {
+     "id": "1"
+     "action": "TEMP",
+     "position":{
+       "x":9,
+       "y":3
+      },
+    {
+     "id": "2"
+     "action": "TURN",
+     "position":{
+       "x":10,
+       "y":4
+      }    
+     }
+]
+}     
+         
