@@ -3,16 +3,6 @@ Beginner_Tutorials
 =====================
 Cette activité est dans le cadre de mieux comprendre et pratiquer avec les nouveaux outils de systeme ROS qui on l'a deja vu dans les diffrents tutoriels  
 
-Turtlesim a une vitesse par défaut
-
-L'utilisateur est demandé de saisir une valeur de vitesse ,à souhait , en respctant les contraintes suivantes :
--Une vitesse maximale : (vitesse_max)  
--Une vitesse minimale : (vitesse_min) 
----> Vous trouvez les valeurs de deux parametres dans le fichier: /config/configuration.yaml
-
-Le code source :/scripts/script.py 
-
-
 Environnements de travail
 =========================
 OS : Ubuntu 14.04 Trusty
@@ -21,22 +11,14 @@ ROS: Indigo
 Démarrage
 ============
 configuration de l'environnement :
- 1- Placer le package beginner_tutoriels dans le repertoire suivants : VOTRE_WORKSPACE/src/
- 
- 2- faire les etapes suivantes :
+
+faire les etapes suivantes :
   1/- cd ~/VOTRE_WORKSPACE
   2/- source /opt/ros/indigo/setup.bash
   3/- source devel/setup.bash
   4/- catkin_make 
   
 tester le projet :
-
- 1-lancez les commandes suivantes dans deux differents terminals:
-  1/-roscore --> démarrer le Master 
-
-  2/-roslaunch beginner_tutorials turtlevitesse.launch ---> faire appelle aux      noeuds :
-       -turtlesim_node
-       -keyboard ( notre script)
-
+ suivre les etapes dans les fichiers Readme de chaque projet
  
 
