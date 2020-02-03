@@ -20,7 +20,7 @@ ROS: Indigo
 
 Démarrage
 ============
-*configuration de l'environnement :
+configuration de l'environnement :
  1- Placer le package beginner_tutoriels dans le repertoire suivants : VOTRE_WORKSPACE/src/
  
  2- faire les etapes suivantes :
@@ -29,7 +29,7 @@ Démarrage
   3/- source devel/setup.bash
   4/- catkin_make 
   
-*tester le projet :
+tester le projet :
 
  1-lancez les commandes suivantes dans deux differents terminals:
   1/-roscore --> démarrer le Master 
