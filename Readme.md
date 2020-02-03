@@ -22,7 +22,7 @@ Configuration de l'environnement :
   
   4/- catkin_make 
   
- Tester le projet :
+Tester le projet :
    
    Suivez les étapes dans" Readme" pour chaque projet
  
