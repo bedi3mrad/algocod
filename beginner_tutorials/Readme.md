@@ -10,7 +10,7 @@ Présentation de l'activité:
 -Une vitesse minimale : (vitesse_min) 
 ---> Vous trouvez les valeurs de deux parametres dans le fichier: /config/configuration.yaml
 
-Le code source :/scripts/script.py 
+Le code source :/src/script.py 
 
 
 Environnements de travail
