@@ -10,15 +10,15 @@ ROS: Indigo
 
 Démarrage
 ============
-configuration de l'environnement :
+Configuration de l'environnement :
 
-faire les etapes suivantes :
+ Executez les etapes suivantes :
   1/- cd ~/VOTRE_WORKSPACE
   2/- source /opt/ros/indigo/setup.bash
   3/- source devel/setup.bash
   4/- catkin_make 
   
-tester le projet :
- suivre les etapes dans les fichiers Readme de chaque projet
+ Tester le projet :
+  Suivez les étapes dans les fichiers Readme de chaque projet
  
 
