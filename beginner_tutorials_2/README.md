@@ -1,15 +1,15 @@
-=====================
+
 Beginner_tutorials_2
 =====================
 Cette activité consiste à executer une patrouille, à partir d'un fichier de configuration «config3. yaml » en format JSON contenant les différents points à atteindre. 
 
-=========================
+
 Environnements de travail
 =========================
 OS : Ubuntu 14.04 Trusty
 ROS: Indigo
 
-============
+
 Démarrage
 ============
 
